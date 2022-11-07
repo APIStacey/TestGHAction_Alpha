@@ -5,7 +5,7 @@
   with:
     apisec-username: ${{ secrets.apisec_username }}
     apisec-password: ${{ secrets.apisec_password }}
-    apisec-project: "VAmPI"
+    apisec-project: "crAPI"
     sarif-result-file: "apisec-results.sarif"
     
 - name: upload sarif file to repository
